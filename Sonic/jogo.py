@@ -33,18 +33,6 @@ sonic_x = 100
 sonic_y = 350
 direcao = (0, 0)
 
-egg_x = 100
-egg_y = 350
-egg_direcao = (0, 0)
-
-egg_x += direcao[0]
-egg_y += direcao[1]
-    
-tela.blit(fundo, [0, 0])
-tela.blit(egg, [egg_x, egg_y])
-clock.tick(30)
-
-
 executando = True
 while executando:
 
